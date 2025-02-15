@@ -1,0 +1,24 @@
+{
+    "doctype": "DocType",
+    "name": "Posted Cheques",
+    "module": "Retail Shop",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "type",
+            "fieldtype": "Select",
+            "label": "Type",
+            "options": "released\nreceived"
+        },
+        {
+            "fieldname": "date",
+            "fieldtype": "Date",
+            "label": "Date"
+        },
+        {
+            "fieldname": "amount",
+            "fieldtype": "Currency",
+            "label": "Amount"
+        }
+    ]
+}

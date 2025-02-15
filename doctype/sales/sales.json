@@ -1,0 +1,23 @@
+{
+    "doctype": "DocType",
+    "name": "Sales",
+    "module": "Retail Shop",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "branch",
+            "fieldtype": "Data",
+            "label": "Branch"
+        },
+        {
+            "fieldname": "date",
+            "fieldtype": "Date",
+            "label": "Date"
+        },
+        {
+            "fieldname": "amount",
+            "fieldtype": "Currency",
+            "label": "Amount"
+        }
+    ]
+}

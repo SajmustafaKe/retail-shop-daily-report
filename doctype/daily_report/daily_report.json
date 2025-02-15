@@ -1,0 +1,55 @@
+{
+    "doctype": "DocType",
+    "name": "Daily Report",
+    "module": "Retail Shop",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "date",
+            "fieldtype": "Date",
+            "label": "Date"
+        },
+        {
+            "fieldname": "sales",
+            "fieldtype": "Table",
+            "label": "Sales",
+            "options": "Sales"
+        },
+        {
+            "fieldname": "bank_balances",
+            "fieldtype": "Table",
+            "label": "Bank Balances",
+            "options": "Bank Balances"
+        },
+        {
+            "fieldname": "accounts_payable",
+            "fieldtype": "Table",
+            "label": "Accounts Payable",
+            "options": "Accounts Payable"
+        },
+        {
+            "fieldname": "accounts_receivable",
+            "fieldtype": "Table",
+            "label": "Accounts Receivable",
+            "options": "Accounts Receivable"
+        },
+        {
+            "fieldname": "posted_cheques_released",
+            "fieldtype": "Table",
+            "label": "Posted Cheques Released",
+            "options": "Posted Cheques"
+        },
+        {
+            "fieldname": "posted_cheques_received",
+            "fieldtype": "Table",
+            "label": "Posted Cheques Received",
+            "options": "Posted Cheques"
+        },
+        {
+            "fieldname": "matters_arising",
+            "fieldtype": "Table",
+            "label": "Matters Arising",
+            "options": "Matters Arising"
+        }
+    ]
+}

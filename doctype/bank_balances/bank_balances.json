@@ -1,0 +1,18 @@
+{
+    "doctype": "DocType",
+    "name": "Bank Balances",
+    "module": "Retail Shop",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "date",
+            "fieldtype": "Date",
+            "label": "Date"
+        },
+        {
+            "fieldname": "balance",
+            "fieldtype": "Currency",
+            "label": "Balance"
+        }
+    ]
+}
